@@ -75,6 +75,7 @@
     "typescript": "6.0.3"
   },
   "scripts": {
+    "start": "node index.js",
     "bench": "npm run build && node test/bench.js",
     "build": "npm run build:esbuild && npm run build:types && npm run build:man",
     "build:docs": "npm run build && node docs/build.js",
